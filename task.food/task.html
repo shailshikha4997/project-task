@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box-food">
+            <p class="text"> chose lunch</p>
+            <form action="" id="theForm">
+                <lable class="lunch">burger =</lable>
+                <input class="check" name="foodmenu" value="200" type="checkbox" id="burger" onclick="food()" />
+                <spam>Rs.200/-</spam><br>
+
+                <lable class="lunch">pizza=</lable>
+                <input class="check" name="foodmenu" value="350" type="checkbox" id="pizza" onclick="food()" />
+                <spam>Rs.350/-</spam><br>
+
+                <lable class="lunch">Rajma Rice =</lable>
+                <input class="check" name="foodmenu" value="90" type="checkbox" id="Rajma Rice" onclick="food()" />
+                <spam>Rs.90/-</spam><br>
+
+                <lable class="lunch">Chole Rice =</lable>
+                <input class="check" name="foodmenu" value="80" type="checkbox" id="Chole Rice" onclick="food()" />
+                <spam>Rs.80/-</spam><br>
+
+                <lable class="lunch">panner = </lable>
+                <input class="check" name="foodmenu" value="250" type="checkbox" id="panner" onclick="food()" />
+                <spam>Rs.250/-</spam><br>
+
+                <lable class="lunch">butter- nan =</lable>
+                <input class="check" name="foodmenu" value="50" type="checkbox" id="butter- nan" onclick="food()" />
+                <spam>Rs.50/-</spam><br>
+
+            </form>
+        </div>
+        <div class="box-food">
+            <p class="text"> choseDinner</p>
+            <form action="" id="theForm">
+                <lable class="dinner">kadhai-paneer =</lable>
+                <input class="check" name="foodmenu" value="190" type="checkbox" id="kadhai-paneer" onclick="food()" />
+                <spam>Rs.190/-</spam><br>
+
+                <lable class="dinner">biryani = </lable>
+                <input class="check" name="foodmenu" value="170" type="checkbox" id="biryani" onclick="food()" />
+                <spam>Rs.170/-</spam><br>
+
+                <lable class="dinner">Butter nan = </lable>
+                <input class="check" name="foodmenu" value="250" type="checkbox" id="Butter nan" onclick="food()" />
+                <spam>Rs.250/-</spam><br>
+
+                <lable class="dinner"> mix veg =</lable>
+                <input class="check" name="foodmenu" value="350" type="checkbox" id=" mix veg " onclick="food()" />
+                <spam>Rs.350/-</spam><br>
+
+            </form>
+
+        </div>
+        <div class="box-food">
+            <p class="text">Gift offer</p>
+            <form action="" id="theForm">
+
+                <lable class="gift1">soft Drink = </lable>
+                <input class="input1" name="foodmenu" value="10" type="checkbox" id="soft Drink" onclick="food()" />
+                <spam>Rs.10/-</spam><br>
+
+                <lable class="gift1">Lassi = </lable>
+                <input class="input2" name="foodmenu" value="20" type="checkbox" id="Lassi" onclick="food()" />
+                <spam>Rs.20/-</spam> <br>
+
+            </form>
+
+        </div>
+
+        <div class="bill-box">
+            <div class="box-bill">
+                <p class="ityoubuy"> Item what you want to Buy . . .</p>
+                <textarea class="youvalue" value="0" id="total" cols="30" rows="10"></textarea>
+                <!-- <input class="youvalue" value="0"  type="text" id="total"/> -->
+            </div>
+
+            <form action="" id="theForm">
+                <input class="btn1" value="Reset Bill" type="submit" id="d-total"><br>
+                <input class="btn2" value="total" onclick="total()" type="reset" />
+
+            </form>
+        </div>
+    </div>
+    <script src="task.js"></script>
+</body>
+
+</html>

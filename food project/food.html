@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="food.css">
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="container">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Lunch List</h3>
+                    </div>
+                    <div class="card-body">
+                        <select multiple="multiple" id="s1">
+                            <option name="YourFood" id="Rajma Rice" value="40" onclick="goodfood()">Rajma Rice</option>
+                            <option  name="YourFood" id="Dal Roti" value="60" onclick="goodfood()">Dal Roti</option>
+                            <option name="YourFood" id="Dosa" value="90" onclick="goodfood()">Dosa</option>
+                            <option name="YourFood" id ="Vada" value="50" onclick="goodfood()">Vada</option>
+                            <option  name="YourFood"  id ="Pizza" value="110" onclick="goodfood()">Pizza</option>
+                            <option name="YourFood" id="Hot Dog" value="40" onclick="goodfood()">Hot Dog</option>
+                            <option name="YourFood" id="Fried Rice" value="60" onclick="goodfood()">Fried Rice</option>
+
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Dinner List</h3>
+                    </div>
+                    <div class="card-body">
+                        <select multiple="multiple" id="s2">
+                            <option  name="YourFood" id="Choley Rice" value="50" onclick="goodfood()">Choley Rice</option>
+                            <option  name="YourFood" id="Dal Chapati" value="70" onclick="goodfood()">Dal Chapati</option>
+                            <option  name="YourFood" id="Biryani" value="90" onclick="goodfood()">Biryani</option>
+                            <option  name="YourFood" id="Burger" value="50" onclick="goodfood()">Burger</option>
+                            <option  name="YourFood" id="Pasta" value="110" onclick="goodfood()">Pasta</option>
+                            <option  name="YourFood" id="Noddles" value="40" onclick="goodfood()">Noodles</option>
+                            <option  name="YourFood" id="Rice" value="60" onclick="goodfood()">Rice</option>
+
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Gift Dish List</h3>
+                    </div>
+                    <div class="card-body">
+                        <select id="s3">
+                            <option name="YourFood" id="select">Select</option>
+                            <option name="YourFood" id="Oreoshake" value="0" onclick="goodfood()">Oreoshake</option>
+                            <option name="YourFood" id="Cold Drink" value="0" onclick="goodfood()">Cold Drink</option>
+                            <option name="YourFood" id="Shakes" value="0" onclick="goodfood()">Shakes</option>
+                            <option name="YourFood" id="Juices" value="0" onclick="goodfood()">juice</option>
+                            <option name="YourFood" id="Icecream" value="0" onclick="goodfood()">Icecream</option>
+                            <option name="YourFood" id="Kulfi" value="0" onclick="goodfood()">Kulfi</option>
+                            <option name="YourFood" id="Lassi" value="0" onclick="goodfood()">Lassi</option>
+
+
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn" onclick="TotalCost()">Total Cost</button>
+            <button type="button" class="btn1">Clear</button>
+            <div class="head pl-3">
+                <label><b>Your Total Cost</b></label>
+                <input type="text" class="col-8 pt-lg-3" id="result">
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="food.js"></script>
+</body>
+
+</html>

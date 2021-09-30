@@ -1,0 +1,27 @@
+.container {
+    height: 660px;
+    width: 700px;
+    background-color: lightcoral;
+}
+
+.row {
+    display: table-column;
+    position: absolute;
+}
+
+.col-4 {
+    border: 1px;
+    box-sizing: 25%;
+    display: inline-table;
+    padding: 5px;
+    margin: auto;
+}
+
+.card {
+    display: block;
+}
+
+.col-8 {
+    padding: 80px;
+    margin: 15px 15px;
+}
